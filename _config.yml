@@ -150,19 +150,19 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+ header_pages:
+   - index.html
+   - archives.html
+   - categories.html
+   - tags.html
+   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "My Homepage"
-#     subheading: "AKKI'S HOME PAGE"
-#     banner: "https://github.com/CaptChup/CaptChup.github.io/blob/main/assets/images/banners/banner_1.jpg"
+defaults:
+   home:
+      heading: "My Homepage"
+      subheading: "AKKI'S HOME PAGE"
+      banner: "https://github.com/CaptChup/CaptChup.github.io/blob/main/assets/images/banners/banner_1.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -244,6 +244,7 @@ kramdown:
   input: GFM
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
