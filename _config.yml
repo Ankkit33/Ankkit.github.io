@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: WELCOME TO AKKI's WORLD 
+email: ankitkumarpadhan333@gmail.com
+author: Ankkit33
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -43,13 +43,11 @@ author: GitHub User
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  AKKI's homepage.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
+favicon: "assets/images/favicons/favicon.ico" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -162,9 +160,9 @@ yat:
 # Page default value
 # defaults:
 #   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+#     heading: "My Homepage"
+#     subheading: "AKKI'S HOME PAGE"
+#     banner: "https://github.com/CaptChup/CaptChup.github.io/blob/main/assets/images/banners/banner_1.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
