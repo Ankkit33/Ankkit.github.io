@@ -9,9 +9,9 @@ I have curated some of my favorite Edits and photographs, enjoy! Find more Photo
 
 <div class="gallery-container">
   <div class="gallery-item">
-    <a href="/gallery/art/">
-      <img src="/assets/images/gallery/art/cover.jpg" alt="Art">
-      <p class="caption">Art</p>
+    <a href="/gallery/Edit/">
+      <img src="/assets/images/gallery/art/cover.jpg" alt="Edit">
+      <p class="caption">Edit</p>
     </a>
   </div>
 
