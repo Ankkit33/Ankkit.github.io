@@ -3,15 +3,57 @@ layout: about
 title: About
 ---
 
-<h2>About</h2>
+<div class="about-container">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm <strong>C L Srinivas</strong>, a master's student in the Evolutionary Ecology Lab </a> at the <a href = "https:/rajendrauniversity.ac.in/"> Rajendra University, Balangir</a> interested in plant stress physiology, Computational Biology, Bioinformatics, Ethnobotanical Research & Plant Biotechnology.
+      My research focuses on understanding how the Plant Tolerate the heat in the Balangir region & analysing the plant genomes in this area using a Computational approach.
+    </p>
+    <p>
+      When I'm not diving into research, I hit the weights, Click Photos, Edit . Check out my photography <a href = "https://Ankkit.github.io/gallery/"> here.</a>
+    </p>
+  </div>
+  
+  <div class="about-photo">
+    <img src="/assets/images/MCL_2025.jpg" alt="C L Srinivas" class="profile-photo">
+  </div>
+</div>
 
-<p>
-:art:&nbsp;Yet another theme for elegant writers with modern flat style
-and beautiful night mode.
-</p>
+<style>
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
 
-<p>
-Hey, nice to meet you, you found this Jekyll theme. Here the yet another
-theme is a modern theme, and it's quite clear, clean and neat for writers
-and posts.
-</p>
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-photo {
+  flex: 1;
+  text-align: center;
+}
+
+.about-photo {
+  flex: 1;
+  text-align: center;
+  margin-top: -6rem; /* Moves the photo up slightly */
+}
+
+.about-photo img {
+  max-width: 100%;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+</style>
+
